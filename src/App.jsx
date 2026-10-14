@@ -5,6 +5,7 @@ import viteLogo from './assets/vite.svg'
 import './App.css'
 import Navbar from './components/Navbar/Navbar'
 import AlumnoCard from './components/AlumnoCard/AlumnoCard'
+import Contador from './components/Contador/contador'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -56,6 +57,8 @@ function App() {
             estado="Inactivo"
           />
         </div>
+
+        <Contador/>
       </div>
     </>
   );
